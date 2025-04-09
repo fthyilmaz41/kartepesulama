@@ -57,6 +57,25 @@
       padding: 10px;
       margin-top: 20px;
     }
+    .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
   </style>
 </head>
 <body>
@@ -86,6 +105,14 @@
       Kartepe Sulama olarak 10 yılı aşkın süredir otomatik sulama sistemlerinde uzmanlaşmış bir ekibiz.
       Rainbird gibi dünyaca ünlü markaların ürünlerini kullanarak müşterilerimize kaliteli ve kalıcı çözümler sunuyoruz.
     </p>
+  </section>
+   <section id="galeri">
+    <h2>Galeri</h2>
+    <div class="gallery">
+      <img src="img/proje1.jpg" alt="Proje 1">
+      <img src="img/proje2.jpg" alt="Proje 2">
+      <img src="img/proje3.jpg" alt="Proje 3">
+    </div>
   </section>
 
   <section id="iletisim">
